@@ -1,0 +1,8 @@
+| Cor                   | HEX       | Significado                                  | Uso sugerido                     |
+| --------------------- | --------- | -------------------------------------------- | -------------------------------- |
+| 🌿 Verde Folha Viva   | `#3B8C4C` | Natureza vibrante, vitalidade rural          | Botões principais, destaques     |
+| 🌽 Amarelo Ouro Milho | `#FFD83D` | Fartura, colheita, energia                   | CTAs, ícones festivos, animações |
+| 🍅 Vermelho Terra     | `#E94E3C` | Cultura, paixão, festas populares            | Destaques, cards, hover          |
+| 🍊 Laranja Sol        | `#FFA45B` | Calor, luz, movimento                        | Fundos, banners, interações      |
+| 💧 Azul Céu Limpo     | `#3B9EE8` | Liberdade, ar puro, conexão natural          | Barras, divisores, links         |
+| 🌾 Bege Palha         | `#FFF5DA` | Base neutra suave que contrasta com as vivas | Fundo do site, áreas de leitura  |
