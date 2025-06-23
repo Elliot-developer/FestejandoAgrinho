@@ -1,93 +1,130 @@
-@media (max-width: 768px) {
+/* ====== RESPONSIVIDADE ====== */
 
-  body {
-    padding: 0 10px !important;
+/* Tablets: largura entre 768px e 1024px */
+@media screen and (max-width: 1024px) {
+  #logo img {
+    width: 30%;
   }
-
-  body {
-    font-size: 50%;
-  }
-
-  header {
-    display: flex;
-    flex-direction: column !important;
-  }
-
-  #navegacao {
-    display: flex;
-    flex-direction: column !important;
-  }
-
 
   #navegacao nav ul {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 10px !important
-  }
-
-  #navegacao ul a li {
-    display: flex;
-    flex-direction: column !important;
-  }
-
-  #navegacao nav {
-    display: flex;
-    flex-direction: column !important;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   #navegacao nav ul a {
-    font-size: 18px !important;
-    margin: 0 !important;
-    text-align: center !important;
-    display: block !important;
-  }
-
-  #logo img {
-    width: 80% !important;
-    margin: auto !important;
-    display: block !important;
-  }
-
-  section img {
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    margin: auto !important;
-  }
-
-  #sobre, #conexao {
-    flex-direction: column !important;
-    padding: 20px !important;
-    text-align: center !important;
+    font-size: 20px;
+    margin: 10px;
   }
 
   #sobre div,
   #conexao div {
-    width: 100% !important;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #conexao {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  #conexao img {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  #conexao h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .card-grid {
+    gap: 15px;
+  }
+  #nav {
+    flex-direction: column !important;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  #avalie img {
+    width: 50%;
+  }
+}
+
+
+/* Celulares: até 767px */
+@media screen and (max-width: 767px) {
+  #logo img {
+    width: 50%;
+  }
+
+  #nav {
+    flex-direction: column !important;
+  }
+
+  #navegacao nav ul {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  #navegacao nav ul a {
+    font-size: 18px;
+    margin: 8px 0;
   }
 
   #sobre h1,
-  #conexao h1 {
-    font-size: 28px !important;
+  #conexao h1,
+  #culinaria h2,
+  #musica h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #sobre div,
+  #conexao div {
+    flex-direction: column;
+    width: 95%;
   }
 
   #sobre p,
   #conexao p {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px 0;
+  }
+
+  #conexao {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #conexao img {
+    width: 95%;
+    margin: 15px 0;
   }
 
   .card-grid {
-    flex-direction: column !important;
-    align-items: center !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .card {
-    width: 100% !important;
-    max-width: 90% !important;
+    width: 90%;
   }
 
   #avalie img {
-    width: 80% !important;
+    width: 70%;
+  }
+
+  footer p {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 10px;
   }
 }

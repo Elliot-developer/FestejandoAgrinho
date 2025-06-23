@@ -58,7 +58,7 @@ body p {
 }
 
 .dropdown-menu li a{
-    color: #FFF5DA;
+    color: #757060;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -89,14 +89,20 @@ body p {
 }
 
 #navegacao nav {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #4E3F2A;
 }
 
 #navegacao nav ul {
-    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 #navegacao nav ul a  {
@@ -160,8 +166,7 @@ section {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: 500px;
-    flex-direction: row-reverse;
+    height: 110%;
     margin-top: 10%;
     color: #FFF5DA;
     background-color: #4E3F2A;
