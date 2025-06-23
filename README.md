@@ -1,9 +1,10 @@
-# 🌾 Raízes Conectadas
+# Raízes Conectadas
 
 **Raízes Conectadas** é um site criado para valorizar e celebrar a conexão entre o campo e a cidade, resgatando tradições culturais, culinárias e musicais do Brasil. A proposta é promover uma experiência digital rica em história, propósito e acessibilidade.
 
-## 📐 Estrutura do Site
-🧭 Navegação 
+
+## Estrutura do Site
+Navegação 
 
 - Logo e menu principal com os links:
   - Início
@@ -13,19 +14,19 @@
   - Referências
   - Dropdown de acessibilidade (modo daltonismo e Google Translate)
 
-🧬 Seção "Sobre" (`#sobre`)
+Seção "Sobre" 
 
 - Apresentação do propósito do projeto.
 - Texto explicativo sobre a importância da conexão entre tradição e modernidade.
 
-🔗 Seção "Conexão" (`#conexao`)
+Seção "Conexão" 
 
 - Texto reflexivo sobre a relação simbiótica entre o campo e a cidade.
 - Imagem ilustrativa destacando essa união.
 
 ---
 
-### 🍲 Seção "Sabores da Cultura" (`#culinaria`)
+### Seção "Sabores da Cultura"
 
 - Cards com pratos típicos brasileiros:
   - Pamonha de Milho Verde
@@ -34,7 +35,7 @@
 
 ---
 
-### 🎵 Seção "Música da Terra" (`#musica`)
+### Seção "Música da Terra"
 
 - Cards com ritmos tradicionais:
   - Forró Pé de Serra
@@ -44,19 +45,19 @@
 
 ---
 
-### 📝 Avaliação do Projeto (`#avalie`)
+### Avaliação do Projeto 
 
 - QR Code e link para formulário no Google Forms para feedback do visitante.
 
 ---
 
-### 🔚 Rodapé
+### Rodapé
 
 - Informações de direitos autorais e encerramento do site.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica.
 - **CSS3**: Estilização com foco em acessibilidade.
