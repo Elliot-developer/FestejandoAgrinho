@@ -35,30 +35,65 @@ body p {
     font-family: "Poppins", sans-serif;
 }
 
-header img {
-    margin-left: 100%;
-    width: 80px;
-}
-
 /* NAVEGACAO */
 
-.acess {
-    color: #FFD83D;
-    padding: 7px;
-    border-radius: 5px;
-    background-color: #4E3F2A;
+.dropdown {
 }
 
-.acess a:hover {
-    border-bottom: 2px solid #FFD83D;
+
+.dropdown ul li {
+
+}
+
+.dropdown ul li a{
+    font-size: 18px !important;
+    text-decoration:overline;
+    color: #4E3F2A !important;
+}
+
+
+.dropdown-menu {
+    display: none !important;
+    background-color: #FFF5DA;
+}
+
+.dropdown-menu li a{
+    color: #FFF5DA;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important; 
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important; 
+}
+
+.daltonismo {
+  filter: contrast(120%) saturate(80%) grayscale(30%);
+}
+
+#logo {
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#logo img {
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20%;
 }
 
 #navegacao {
-    position: sticky;
-      top: 0;
-    display: flex;
-    justify-content: space-between;
     border-bottom: 5px solid #FFD83D;
+}
+
+#navegacao nav {
+    width: 100%;
+    background-color: #4E3F2A;
 }
 
 #navegacao nav ul {
@@ -68,13 +103,12 @@ header img {
 }
 
 #navegacao nav ul a  {
-    margin-top: 25px;
     margin-right: 20px;
     font-size: 24px;
 
     font-family: 'chunq';
     text-transform: uppercase;
-    color: #4E3F2A;
+    color: #FFF5DA;
     text-decoration: none;
 
     transition: color 0.4s ease;
@@ -91,14 +125,15 @@ header img {
 /* CONTEUDO */
 
 section {
+    
+}
+
+#sobre {
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-}
-
-#sobre {
     margin-top: 10%;
 }
 
@@ -123,6 +158,11 @@ section {
 /* CONEXAO */
 
 #conexao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     height: 500px;
     flex-direction: row-reverse;
     margin-top: 10%;
@@ -160,9 +200,11 @@ section {
 /* CULTURA */
 
 #cultura {
+    align-items: center;
+
+    text-align: center;
     width: 100%;
     margin-top: 10%;
-    flex-direction: column;
 }
 
 #cultura h1 {
@@ -211,6 +253,15 @@ section {
 
 #musica .card-grid {
     margin-top: 7%;
+}
+
+#avalie {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
 }
 
 footer {
