@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 10px !important;
+  }
+
+  body {
+    font-size: 50%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #navegacao {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+
+  #navegacao nav ul {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important
+  }
+
+  #navegacao ul a li {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #navegacao nav {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #navegacao nav ul a {
+    font-size: 18px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  #logo img {
+    width: 80% !important;
+    margin: auto !important;
+    display: block !important;
+  }
+
+  section img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: auto !important;
+  }
+
+  #sobre, #conexao {
+    flex-direction: column !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+  #sobre div,
+  #conexao div {
+    width: 100% !important;
+  }
+
+  #sobre h1,
+  #conexao h1 {
+    font-size: 28px !important;
+  }
+
+  #sobre p,
+  #conexao p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .card-grid {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 90% !important;
+  }
+
+  #avalie img {
+    width: 80% !important;
+  }
+}
